@@ -1,0 +1,131 @@
+/* General Styles */
+html {
+  height: 100%;
+  width: 100%;
+}
+
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+/* Welcome Section */
+#welcome {
+  background-color: transparent !important;
+}
+
+#welcome .carousel-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  #welcome .carousel-item img {
+    height: 50vw;
+  }
+}
+
+/* Introduction Section */
+#introduction p {
+  color: #00231c;
+}
+
+@media (min-width: 768px) {
+  #introduction {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  #introduction .body-large {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+/* Home Title */
+#home-title {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100vw;
+  color: #c5c3c3;
+}
+
+/* Promotion Section */
+#promotion img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+#promotion p {
+  color: #c5c3c3;
+}
+
+@media (max-width: 767px) {
+  #promotion img {
+    height: 50vw;
+  }
+}
+
+/* Featured Products Section */
+#featured-products .card,
+#products .card {
+  background-color: #b5dee2;
+  color: #00231c;
+}
+
+#featured-products .btn-primary,
+#products .btn-primary {
+  background-color: #f0c06d;
+  border-color: #014038;
+  color: #00231c;
+}
+
+/* Categories Section */
+#categories .btn-outline-primary {
+  color: #00231c;
+  border-color: #014038;
+}
+
+#categories .btn-outline-primary:hover {
+  color: #f0c06d;
+  background-color: #014038;
+  border-color: #014038;
+  font-weight: bold;
+}
+
+/* Perks Section */
+#perks button {
+  background-color: #96baa0;
+  color: #00231c;
+}
+
+#perks .accordion-body {
+  background-color: #014038;
+  color: #c5c3c3;
+}
+
+#perks .accordion-body strong {
+  color: #f0c06d;
+}
+
+/* Business Hours */
+#business-hours td,
+#business-hours th {
+  background-color: #fff0;
+}
+
+/* Contact Us */
+#contact-us input,
+#contact-us textarea {
+  background-color: #f0c06d59;
+}
+
+#contact-us button {
+  background-color: #f0c06d;
+  border-color: #014038;
+  color: #00231c;
+}

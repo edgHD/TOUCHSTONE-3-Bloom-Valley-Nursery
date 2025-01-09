@@ -1,0 +1,72 @@
+<!-- Typography stylesheet -->
+<link href="../assets/typography.css" rel="stylesheet" type="text/css" />
+
+<!-- Navbar stylesheet -->
+<link href="../assets/navbar.css" rel="stylesheet" type="text/css" />
+
+<!-- Navbar section -->
+<nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+  <div class="container-fluid">
+    <!-- Brand logo -->
+    <a class="navbar-brand" href="../index.html">
+      <img src="../assets/logo.png" width="50" height="50" alt="Logo">
+    </a>
+    <!-- Navbar toggler for mobile view -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- Collapsible navbar content -->
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto body-large text-center">
+        <!-- Nav links -->
+        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="../gallery/gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="../about-us/about-us.html">About Us</a></li>
+        <li class="nav-item"><a class="nav-link" href="../privacy-policy/privacy-policy.html">Privacy Policy</a></li>
+        <!-- Shopping Cart -->
+        <li class="nav-item d-flex justify-content-center align-items-center">
+          <button id="shopping-cart-btn" type="button" class="btn btn-primary body-large ms-lg-4" data-bs-toggle="offcanvas" data-bs-target="#shopping-cart">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#014038" viewBox="0 0 16 16">
+              <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Shopping Cart Offcanvas -->
+<div class="offcanvas offcanvas-start" tabindex="-1" id="shopping-cart" aria-labelledby="shopping-cart-label" data-bs-scroll="true">
+  <div class="offcanvas-header">
+    <h1 class="offcanvas-title title" id="shopping-cart-label">Shopping Cart</h1>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <div class="container-fluid">
+      <ul id="cart-items"></ul>
+      <div id="total-price"></div>
+      <br>
+      <div class="row">
+        <div class="col-6 w-auto">
+          <button id="clear-cart-btn" type="button" class="btn btn-primary body-large">Clear Cart</button>
+        </div>
+        <div class="col-6 w-auto">
+          <button id="checkout-btn" type="button" class="btn btn-primary body-large">Checkout</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Shopping Modal -->
+<div class="modal" tabindex="-1" id="shopping-modal">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-body d-flex justify-content-between align-items-center">
+        <h5 class="modal-title title"></h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+    </div>
+  </div>
+</div>

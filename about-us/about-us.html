@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Metadata and title -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>About Us - Bloom Valley Nursery</title>
+
+  <!-- Bootstrap CSS for styling -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Custom CSS files -->
+  <link href="../home.css" rel="stylesheet" type="text/css" />
+  <link href="../assets/typography.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Navigation bar -->
+  <header id="main-navbar"></header>
+
+  <div class="container my-4 body">
+    <!-- Page title and content -->
+    <h1 class="title-large">About Us</h1>
+    <p>Welcome to Bloom Valley Nursery, your local, family-owned plant nursery dedicated to bringing the beauty of nature to your home and garden. We offer a diverse selection of high-quality plants, trees, and gardening supplies.</p>
+    <p>We are committed to sustainability and creativity in everything we do. Our mission is to provide the best products and expert advice to help your garden thrive.</p>
+    <p>Our website enhances our visibility, fosters community engagement, and makes it easier for you to inquire about and order our products.</p>
+    <p>Whether you’re a seasoned gardener or just starting, Bloom Valley Nursery is here to support you. Join us in celebrating gardening and nature.</p>
+
+    <!-- Business hours -->
+    <h1 class="title-large mt-4">Business Hours:</h1>
+    <table id="business-hours" class="table">
+      <thead>
+        <tr>
+          <th scope="col">Day</th>
+          <th scope="col">Hours</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Monday</th><td>9 a.m. to 6 p.m.</td></tr>
+        <tr><th scope="row">Tuesday</th><td>9 a.m. to 6 p.m.</td></tr>
+        <tr><th scope="row">Wednesday</th><td>9 a.m. to 6 p.m.</td></tr>
+        <tr><th scope="row">Thursday</th><td>9 a.m. to 6 p.m.</td></tr>
+        <tr><th scope="row">Friday</th><td>9 a.m. to 6 p.m.</td></tr>
+        <tr><th scope="row">Saturday</th><td>10 a.m. to 5 p.m.</td></tr>
+        <tr><th scope="row">Sunday</th><td>10 a.m. to 5 p.m.</td></tr>
+      </tbody>
+    </table>
+
+    <!-- Contact form -->
+    <div class="container mt-4">
+      <h1 class="title-large">Contact Us</h1>
+      <form id="contact-us" class="body">
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" placeholder="name@example.com" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" placeholder="+1 (000) 000-0000  (Optional)" id="phone">
+        </div>
+        <div class="mb-3">
+          <label for="comment" class="form-label">Comment</label>
+          <textarea class="form-control" id="comment" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" onclick="submitForm()">Submit</button>
+      </form>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer id="main-footer"></footer>
+
+  <!-- Scripts -->
+  <script src="../home.js"></script>
+  <script src="contact.js"></script>
+  <script src="../store-interactions.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+
+<!-- Hidden image so store-interactions.js works without issues -->
+<img class="d-none" src="../assets/grassHeart.png">
+  
+</html>

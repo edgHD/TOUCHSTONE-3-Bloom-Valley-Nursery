@@ -1,0 +1,54 @@
+/* Navbar background color */
+.navbar {
+  background-color: #014038 !important;
+}
+
+/* Navbar link color */
+nav .nav-link {
+  color: #c5c3c3;
+}
+
+/* Navbar link hover color */
+nav .nav-link:hover {
+  color: #b5dee2;
+}
+
+/* Shopping cart button and offcanvas background and border */
+#shopping-cart-btn, #shopping-cart {
+  background-color: #96baa0;
+  border-color: #014038;
+}
+
+/* Clear cart button styles */
+#shopping-cart #clear-cart-btn {
+  background-color: #b5dee2;
+  color: #00231c;
+}
+
+/* Checkout button styles */
+#shopping-cart #checkout-btn {
+  background-color: #f0c06d;
+  color: #00231c;
+}
+
+/* General button border in shopping cart */
+#shopping-cart button {
+  border-color: #00231c;
+}
+
+/* Shopping modal adjustments for open state */
+#shopping-modal .modal-open {
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* Shopping modal body background and text color */
+#shopping-modal .modal-body {
+  background-color: #f7f7f7;
+  color: #00231c;
+}
+
+/* Body padding adjustment when modal is open */
+body.modal-open {
+  padding-right: 0 !important;
+}

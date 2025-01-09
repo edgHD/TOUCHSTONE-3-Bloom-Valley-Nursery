@@ -1,0 +1,53 @@
+/* Footer background and text color */
+footer {
+  background-color: #014038;
+  color: #c5c3c3;
+}
+
+/* Navbar width adjustments for small screens */
+@media (max-width: 767px) {
+  .nav {
+    width: 100%;
+  }
+}
+
+/* Navbar width adjustments for larger screens */
+@media (min-width: 768px) {
+  .nav {
+    width: 50%;
+  }
+}
+
+/* Navbar link color */
+.nav-link {
+  color: #c5c3c3;
+}
+
+/* Navbar link hover color */
+.nav-link:hover {
+  color: #b5dee2;
+}
+
+/* Email subscribe button styles */
+#email-subscribe .input-group button {
+  font-weight: bold;
+  background-color: #f0c06d;
+  border-color: #00231c;
+  color: #00231c;
+}
+
+/* Email subscribe input border color */
+#email-subscribe .input-group input {
+  border-color: #00231c;
+}
+
+/* Email input background color */
+#email-input {
+  background-color: #96baa0;
+}
+
+/* Subscribe modal style */
+#subscribe-modal .modal-body {
+  background-color: #96baa0;
+  color: #00231c
+}
